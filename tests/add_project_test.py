@@ -9,9 +9,3 @@ class AddProjectTest(unittest.TestCase):
   def add_project_test(self):
     project = AddProject().run()
     self.assertIsInstance(project, Project)
-
-def main():
-  unittest.main()
-
-if __name__ == '__main__':
-  main()

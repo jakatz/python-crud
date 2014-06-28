@@ -1,3 +1,4 @@
 class Project:
-  def __init__(self):
-    self.name = "hello"
+  def __init__(self, name, id):
+    self.name = name
+    self.id = id
